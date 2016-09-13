@@ -1,0 +1,35 @@
+{
+  "name": "neshell",
+  "version": "1.0.0",
+  "description": "Play NES games in shell.",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node . game.nes",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elite-Four/NEShell.git"
+  },
+  "keywords": [
+    "nes",
+    "shell"
+  ],
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Elite-Four/NEShell/issues"
+  },
+  "homepage": "https://github.com/Elite-Four/NEShell#readme",
+  "dependencies": {
+    "ansi-escapes": "*",
+    "canvas": "*",
+    "keypress": "*",
+    "nesnes": "*",
+    "raf": "*"
+  },
+  "devDependencies": {
+    "standard": "*"
+  }
+}
